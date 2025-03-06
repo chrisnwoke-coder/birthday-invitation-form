@@ -1,4 +1,12 @@
 @media screen and (max-width:1075px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full height of the viewport */
+        margin: 0;
+    }
+
     .header_1:nth-child(1) h1{
         font-size: 20px;
     }
@@ -9,7 +17,20 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full height of the viewport */
+        margin: 0;
+    }
+
+    .header{
+        width: 97%;
+    }
+
+
     .header_1:nth-child(1) h1{
         font-size: 15px;
     }
