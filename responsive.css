@@ -1,0 +1,16 @@
+@media screen and (max-width:1075px) {
+    .header_1:nth-child(1) h1{
+        font-size: 20px;
+    }
+
+    .header_1:nth-child(1) p{
+        font-size: 12px;
+        margin: unset !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header_1:nth-child(1) h1{
+        font-size: 15px;
+    }
+}
