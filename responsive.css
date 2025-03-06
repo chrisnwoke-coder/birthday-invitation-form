@@ -19,10 +19,7 @@
 
 @media screen and (max-width: 900px) {
     body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120vh; /* Full height of the viewport */
+        height: 120vh !important; /* Full height of the viewport */
         margin: 0;
     }
 
