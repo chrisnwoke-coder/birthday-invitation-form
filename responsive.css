@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 900px) {
     body{
-        height: 120vh !important; /* Full height of the viewport */
+        height: 100vh !important; /* Full height of the viewport */
         margin: 0;
     }
 
